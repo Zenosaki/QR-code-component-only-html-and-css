@@ -1,0 +1,67 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+  background-color:hsl(212, 45%, 89%);
+}
+
+
+.Container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Content_Box{
+  padding: 10px;
+  width: 400px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: fr;
+  border: 1px solid transparent;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgb(141, 141, 141);
+}
+
+
+.Logo>img{
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.Text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+
+.Text .Title{
+  color: hsl(218, 44%, 22%);
+  max-width: 350px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+
+.Text .Paragraph{
+  color: hsl(220, 15%, 55%);
+  max-width: 250px;
+  font-size: 15px;
+  text-align: center;
+}
+
